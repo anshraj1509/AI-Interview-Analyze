@@ -1,0 +1,21 @@
+AI-Interview-Coach/                
+├── index.html                     
+├── style.css                       
+├── script.js                       
+├── README.md
+├── .gitignore
+├── app.py  
+├── requirements.txt
+└── utils/                        
+└── data/
+|   ├──_init_.py
+|   ├── vision.py
+|   └── audio.py
+├── assets/
+|   └──icons/
+|       ├── logo.png
+|       └── mic.png
+└── .streamlit/
+|   └── secrets
+├──venv/
+|   └──
