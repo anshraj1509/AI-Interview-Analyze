@@ -1,0 +1,23 @@
+/* You can delete this file if using Tailwind CDN above */
+/* Only needed if you remove the <script src="https://cdn.tailwindcss.com"></script> line */
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: linear-gradient(to bottom right, #f0f9ff, #e0f2fe);
+  min-height: 100vh;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.waveform {
+  height: 80px;
+  background: repeating-linear-gradient(90deg, #3b82f6 0px, #3b82f6 4px, transparent 4px, transparent 8px);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
