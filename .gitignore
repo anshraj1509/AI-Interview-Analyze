@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temp files from app
+temp_*
+*.tmp
+
+# Media samples (don't commit large binaries)
+data/*.mp3
+data/*.wav
+data/*.m4a
+data/*.mp4
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
